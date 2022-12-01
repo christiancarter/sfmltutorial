@@ -12,5 +12,5 @@ class Animation
 		Animation(sf::Texture* texture, sf::Vector2u imageCount, float switchTime);
 		~Animation();
 		sf::IntRect uvRect;
-		void Update(int row, float deltaTime);
+		void Update(int row, float deltaTime, bool faceRight);
 };
